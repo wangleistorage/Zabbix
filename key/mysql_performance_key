@@ -1,3 +1,0 @@
-UserParameter=mysql.version,/usr/local/mysql/bin/mysql -V 
-UserParameter=mysql.ping,/usr/local/mysql/bin/mysqladmin -uzabbix -pzabbix -S /tmp/mysql.sock ping | grep -c alive 
-UserParameter=mysql.status[*],/usr/local/zabbix/shell/mysql_performance.sh $1 $2
