@@ -1,0 +1,2 @@
+UserParameter=zabbix_low_discovery[*],/bin/bash /usr/local/zabbix/shell/redis_low_discovery.sh $1
+UserParameter=redis_stats[*],/usr/local/redis/src/redis-cli -h 10.1.0.55 -p $1 -a yunjee0515 info|grep $2|cut -d : -f2
