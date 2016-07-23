@@ -1,5 +1,8 @@
 # Zabbix
 Save zabbix configure
-- key
-- module
-- shell
+- zabbix-alert-conf
+    - wechat
+- zabbix-monitor-conf
+    - nginx
+    - mysql
+    - redis
